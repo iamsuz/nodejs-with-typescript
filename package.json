@@ -1,0 +1,23 @@
+{
+	"name": "fastify-ts",
+	"version": "1.0.0",
+	"description": "Boiler plate of fastify",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamsuz/nodejs-with-typescript.git"
+	},
+	"author": "Sujit M",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iamsuz/nodejs-with-typescript/issues"
+	},
+	"homepage": "https://github.com/iamsuz/nodejs-with-typescript#readme",
+	"dependencies": {
+		"fastify": "^5.2.2"
+	}
+}
