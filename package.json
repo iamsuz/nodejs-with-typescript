@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"run:local": "ts-node src/index.ts"
+		"run:local": "ts-node src/server.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -19,7 +19,9 @@
 	},
 	"homepage": "https://github.com/iamsuz/nodejs-with-typescript#readme",
 	"dependencies": {
+		"@types/node": "^22.14.1",
 		"fastify": "^5.2.2",
+		"pino-pretty": "^13.0.0",
 		"typescript": "^5.8.3"
 	},
 	"devDependencies": {
