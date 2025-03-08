@@ -9,3 +9,4 @@ This is a boilerplate of node server using Fastify and Typescript
 - K8s
 - DynamoDB
 - Pino for logger
+- dynamoDB using electrodb

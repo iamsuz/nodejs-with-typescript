@@ -20,7 +20,7 @@
 	"homepage": "https://github.com/iamsuz/nodejs-with-typescript#readme",
 	"dependencies": {
 		"@types/node": "^22.14.1",
-		"fastify": "^5.2.2",
+		"fastify": "^5.4.0",
 		"pino-pretty": "^13.0.0",
 		"typescript": "^5.8.3"
 	},
