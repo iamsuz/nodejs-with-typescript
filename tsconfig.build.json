@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",                        // modern JS output
+    "module": "nodenext",                      // Node's default (can use "ESNext" if ESM)
+    "rootDir": "src",                          // your TS source folder
+    "outDir": "dist",                          // compiled JS output
+    "strict": true,                            // enable strict type-checking
+    "esModuleInterop": true,                   // allow default imports from CJS
+    "forceConsistentCasingInFileNames": true,  // catch wrong imports on case-sensitive FS
+    "skipLibCheck": true                       // speed up compilation
+  },
+  "include": ["src"],                          // compile only your source folder
+  "exclude": ["node_modules", "dist", "test"]  // don’t compile these
+}

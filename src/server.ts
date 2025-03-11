@@ -1,4 +1,4 @@
-import { build } from "./app.ts";
+import { build } from "./app";
 
 type FastifyOptions = {
 	// Define the type of options you want to pass to Fastify
@@ -35,7 +35,7 @@ if (process.stdout.isTTY) {
 
 const app = await build(opts);
 
-app.listen({ port: 3000 }, (err, address) => {
+app.listen({ port: 3000 }, (err : Error | null, address: string) => {
 	if (err) {
 		console.error(err);
 		// process.exit(1);

@@ -6,7 +6,8 @@
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"run:local": "ts-node src/server.ts"
+		"run:local": "ts-node src/server.ts",
+		"build": "tsc -p tsconfig.build.json"
 	},
 	"repository": {
 		"type": "git",
@@ -19,11 +20,11 @@
 	},
 	"homepage": "https://github.com/iamsuz/nodejs-with-typescript#readme",
 	"dependencies": {
-		"@types/node": "^22.14.1",
-		"fastify": "^5.4.0",
-		"kafkajs": "^2.2.4",
-		"pino-pretty": "^13.0.0",
-		"typescript": "^5.8.3"
+		"@types/node": "~24.5.2",
+		"fastify": "~5.6.0",
+		"kafkajs": "~2.2.4",
+		"pino-pretty": "~13.1.1",
+		"typescript": "~5.9.2"
 	},
 	"devDependencies": {
 		"ts-node": "^10.9.2"

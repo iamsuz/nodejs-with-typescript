@@ -1,4 +1,8 @@
 services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
     container_name: zookeeper
